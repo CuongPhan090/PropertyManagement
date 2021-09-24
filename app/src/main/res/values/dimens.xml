@@ -10,6 +10,7 @@
     <dimen name="small_text_size">16sp</dimen>
     <dimen name="big_text_size">24sp</dimen>
     <dimen name="big_padding">36dp</dimen>
+    <dimen name="xbig_text_size">36sp</dimen>
     <dimen name="huge_text_size">48sp</dimen>
     <dimen name="small_padding">8dp</dimen>
     <dimen name="huge_padding">48dp</dimen>
