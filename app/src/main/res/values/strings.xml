@@ -7,4 +7,8 @@
     <string name="label_forgot_password">Forgot your password? Click Here</string>
     <string name="label_register">Do not have an account? Create an account</string>
     <string name="login_activity">Login</string>
+    <string name="label_instruction">We will send a link to reset your password</string>
+    <string name="hint_enter_email_address">Enter your email</string>
+    <string name="btn_send_link">Send reset link</string>
+    <string name="reset_password">Reset Password</string>
 </resources>
