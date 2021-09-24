@@ -1,6 +1,6 @@
 # PropertyManagement
 
-The Software Requirements Specification for Property Management Mobile Apps. 
+Property Management Mobile Apps.
 
 It provides intuitive rental tracking for the next generation of mobile landlords and property managers.
 
