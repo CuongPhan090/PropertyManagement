@@ -1,7 +1,8 @@
-package com.example.propertymanagement
+package com.example.propertymanagement.UI
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.propertymanagement.R
 
 class ResetPasswordActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -1,4 +1,4 @@
-package com.example.propertymanagement
+package com.example.propertymanagement.UI
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
