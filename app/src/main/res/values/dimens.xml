@@ -12,7 +12,16 @@
     <dimen name="big_padding">36dp</dimen>
     <dimen name="xbig_text_size">36sp</dimen>
     <dimen name="huge_text_size">48sp</dimen>
-    <dimen name="small_padding">8dp</dimen>
     <dimen name="huge_padding">48dp</dimen>
     <dimen name="enormous_margin">60dp</dimen>
+    <dimen name="common_margin">16dp</dimen>
+    <dimen name="large_margin">85dp</dimen>
+    <dimen name="common_padding">16dp</dimen>
+    <dimen name="header_margin">35dp</dimen>
+    <dimen name="splash_margin">120dp</dimen>
+    <dimen name="text_size">35dp</dimen>
+    <dimen name="small_padding">8dp</dimen>
+    <dimen name="text_view">55dp</dimen>
+    <dimen name="little_margin">6dp</dimen>
+    <dimen name="medium_margin">22dp</dimen>
 </resources>
