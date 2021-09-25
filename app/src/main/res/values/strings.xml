@@ -20,4 +20,5 @@
     <string name="hint_enter_name">Enter your name</string>
     <string name="btn_register">Register</string>
     <string name="label_terms_and_conditions">By clicking create account, you agree to our teams and conditions</string>
+    <string name="dashboard">Dashboard</string>
 </resources>
