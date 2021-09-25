@@ -11,13 +11,13 @@
         android:theme="@style/Theme.PropertyManagement">
         <activity
             android:name=".RegisterActivity" android:exported="true"
-            android:label="Create an account">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:label="Create an account" />
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+
         <activity
             android:name=".ResetPasswordActivity"
             android:label="@string/reset_password" />
@@ -26,12 +26,18 @@
             android:label="@string/login_activity" />
 
         <activity
-            android:name=".view.DashboardActivity"
+            android:name=".DashboardActivity"
             android:exported="true" />
 
         <activity
             android:name=".MainActivity"
             android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
 
         </activity>
     </application>

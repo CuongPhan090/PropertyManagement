@@ -1,8 +1,8 @@
-package org.sussanacode.propertymanagement.view
+package com.example.propertymanagement
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import org.sussanacode.propertymanagement.databinding.ActivityDashboardBinding
+import com.example.propertymanagement.databinding.ActivityDashboardBinding
 
 class DashboardActivity : AppCompatActivity() {
     lateinit var binding: ActivityDashboardBinding

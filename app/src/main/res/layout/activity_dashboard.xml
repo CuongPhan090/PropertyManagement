@@ -6,10 +6,10 @@
     android:background="@drawable/background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.DashboardActivity">
+    tools:context=".DashboardActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_marginTop="@dimen/medium_margin"
+        android:background="#e6f2ff"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
