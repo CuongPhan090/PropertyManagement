@@ -1,5 +1,6 @@
-package com.example.propertymanagement.UI
+package com.example.propertymanagement.view
 
+import android.app.AlertDialog
 import android.app.ProgressDialog
 import android.content.Intent
 import android.graphics.Color
@@ -10,13 +11,12 @@ import android.text.SpannableString
 import android.text.TextPaint
 import android.text.method.LinkMovementMethod
 import android.text.style.ClickableSpan
-import android.util.Log
 import android.util.Patterns
 import android.view.View
 import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
-import com.example.propertymanagement.R
 import com.example.propertymanagement.databinding.ActivityLoginBinding
+import com.example.propertymanagement.viewModel.LoginActivityViewModel
 
 class LoginActivity : AppCompatActivity() {
     lateinit var binding: ActivityLoginBinding
@@ -43,12 +43,9 @@ class LoginActivity : AppCompatActivity() {
 
         viewModel.loginResponse.observe(this) { response ->
             pd.dismiss()
-            response.token?.let{
-                // todo - store the user info in the local database
-                startActivity(Intent(baseContext, DashboardActivity::class.java))
-            }
+            // todo - store the user info in the local database
+            startActivity(Intent(baseContext, DashboardActivity::class.java))
         }
-
     }
 
     private fun initViewModels() {
@@ -67,11 +64,25 @@ class LoginActivity : AppCompatActivity() {
         }
 
         binding.btnFacebookLogin.setOnClickListener {
-
+            AlertDialog.Builder(this).apply{
+                setMessage("API not supported, please try later")
+                setPositiveButton("Sure") {
+                    dialog, _ -> dialog.dismiss()
+                }
+                create()
+                show()
+            }
         }
 
         binding.btnGoogleSignIn.setOnClickListener {
-
+            AlertDialog.Builder(this).apply{
+                setMessage("API not supported, please try later")
+                setPositiveButton("Sure") {
+                        dialog, _ -> dialog.dismiss()
+                }
+                create()
+                show()
+            }
         }
     }
 

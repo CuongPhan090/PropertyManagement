@@ -19,10 +19,11 @@
     <string name="hint_enter_password">Enter your password</string>
     <string name="hint_enter_name">Enter your name</string>
     <string name="btn_register">Register</string>
-    <string name="label_terms_and_conditions">By clicking create account, you agree to our teams and conditions</string>
+    <string name="label_terms_and_conditions">By clicking create account, you agreed to our teams and conditions</string>
     <string name="dashboard">Dashboard</string>
     <string name="or_continue_with">Or continue with</string>
     <string name="continue_with_facebook">Continue With Facebook</string>
     <string name="continue_with_google">Continue With Google</string>
     <string name="or_login_with">Or Login With</string>
+    <string name="hint_confirm_password">Confirm your password</string>
 </resources>

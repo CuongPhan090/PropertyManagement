@@ -1,4 +1,4 @@
-package com.example.propertymanagement.API
+package com.example.propertymanagement.api
 
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

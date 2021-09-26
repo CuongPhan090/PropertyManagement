@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="@dimen/small_padding"
-    tools:context=".UI.LoginActivity">
+    tools:context=".view.LoginActivity">
 
     <ImageView
         android:id="@+id/ivLogo"
@@ -100,10 +100,9 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/standard_margin"
         android:layout_marginTop="@dimen/standard_margin"
-        android:paddingLeft="@dimen/standard_padding"
         android:layout_marginRight="@dimen/standard_margin"
         android:backgroundTint="@color/com_facebook_blue"
-        android:drawableLeft="@drawable/com_facebook_button_icon"
+        android:drawableLeft="@drawable/ic_facebook"
         android:text="@string/continue_with_facebook"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -116,7 +115,7 @@
         android:layout_marginLeft="@dimen/standard_margin"
         android:layout_marginRight="@dimen/standard_margin"
         android:backgroundTint="@android:color/holo_red_light"
-        android:drawableLeft="@drawable/common_google_signin_btn_icon_light"
+        android:drawableLeft="@drawable/ic_google"
         android:text="@string/continue_with_google"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

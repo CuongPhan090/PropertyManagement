@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:scrollbars="vertical"
-        tools:context=".UI.RegisterActivity">
+        tools:context=".view.RegisterActivity">
 
         <ImageView
             android:id="@+id/ivLogo"
@@ -67,7 +67,6 @@
             app:layout_constraintTop_toBottomOf="@id/tvLogIn">
 
             <RadioButton
-
                 android:id="@+id/radioLandlord"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -124,6 +123,21 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/etEmailAddress" />
 
+        <EditText
+            android:id="@+id/etConfirmPassword"
+            android:layout_width="0dp"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/standard_margin"
+            android:layout_marginTop="@dimen/standard_margin"
+            android:background="@drawable/custom_selector_login_edit_text"
+            android:hint="@string/hint_confirm_password"
+            android:padding="@dimen/standard_padding"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/etPassword" />
+
+
 
         <EditText
             android:id="@+id/etLandlordEmail"
@@ -136,7 +150,7 @@
             android:padding="@dimen/standard_padding"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/etPassword" />
+            app:layout_constraintTop_toBottomOf="@id/etConfirmPassword" />
 
         <EditText
             android:id="@+id/etName"

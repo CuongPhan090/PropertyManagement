@@ -1,4 +1,4 @@
-package com.example.propertymanagement.UI
+package com.example.propertymanagement.view
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

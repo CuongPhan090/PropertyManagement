@@ -1,4 +1,4 @@
-package com.example.propertymanagement.repository.mainRepository
+package com.example.propertymanagement.model.mainRepository
 
 data class LoginRequestData(
     var email: String,

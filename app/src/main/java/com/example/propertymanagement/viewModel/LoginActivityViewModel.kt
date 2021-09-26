@@ -1,11 +1,10 @@
-package com.example.propertymanagement.UI
+package com.example.propertymanagement.viewModel
 
-import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.propertymanagement.API.ApiClient
-import com.example.propertymanagement.repository.mainRepository.LoginRequestData
-import com.example.propertymanagement.repository.mainRepository.LoginResponseData
+import com.example.propertymanagement.api.ApiClient
+import com.example.propertymanagement.model.mainRepository.LoginRequestData
+import com.example.propertymanagement.model.mainRepository.LoginResponseData
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
