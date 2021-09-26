@@ -26,4 +26,13 @@
     <string name="continue_with_google">Continue With Google</string>
     <string name="or_login_with">Or Login With</string>
     <string name="hint_confirm_password">Confirm your password</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="my_profile">My Profile</string>
+    <string name="app_settings">App Settings</string>
+    <string name="alert_preferences">Alert Preferences</string>
+    <string name="security">Security</string>
+    <string name="account_and_billing"><![CDATA[ACCOUNT & BILLING]]></string>
+    <string name="my_current_plan">My Current Plan</string>
+    <string name="payment_details">Payment Details</string>
 </resources>
