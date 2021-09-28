@@ -26,4 +26,7 @@
     <string name="continue_with_google">Continue With Google</string>
     <string name="or_login_with">Or Login With</string>
     <string name="hint_confirm_password">Confirm your password</string>
+    <string name="properties">PROPERTIES</string>
+    <string name="tenant_management">Tenant management</string>
+    <string name="gross_income">Gross Income</string>
 </resources>
