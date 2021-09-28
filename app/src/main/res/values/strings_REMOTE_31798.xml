@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">IProperty</string>
+    <string name="app_name">PropertyManagement</string>
     <string name="label_greeting">Welcome back! Log in to continue</string>
     <string name="hint_email_address">Email Address</string>
     <string name="hint_password">Password</string>
@@ -26,5 +26,7 @@
     <string name="continue_with_google">Continue With Google</string>
     <string name="or_login_with">Or Login With</string>
     <string name="hint_confirm_password">Confirm your password</string>
-    <string name="create_an_account">Create an account</string>
+    <string name="properties">PROPERTIES</string>
+    <string name="tenant_management">Tenant management</string>
+    <string name="gross_income">Gross Income</string>
 </resources>

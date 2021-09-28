@@ -26,5 +26,11 @@
     <string name="continue_with_google">Continue With Google</string>
     <string name="or_login_with">Or Login With</string>
     <string name="hint_confirm_password">Confirm your password</string>
+<<<<<<< HEAD
     <string name="create_an_account">Create an account</string>
+=======
+    <string name="properties">PROPERTIES</string>
+    <string name="tenant_management">Tenant management</string>
+    <string name="gross_income">Gross Income</string>
+>>>>>>> feature-dashboard
 </resources>
