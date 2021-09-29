@@ -1,7 +1,6 @@
-package com.example.propertymanagement.view
+package com.example.propertymanagement.ui.login
 
 import android.app.AlertDialog
-import android.app.ProgressDialog
 import android.content.Intent
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
@@ -11,25 +10,28 @@ import android.text.SpannableString
 import android.text.TextPaint
 import android.text.method.LinkMovementMethod
 import android.text.style.ClickableSpan
-import android.util.Patterns
 import android.view.View
 import android.widget.Toast
+import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
+import com.example.propertymanagement.R
 import com.example.propertymanagement.databinding.ActivityLoginBinding
-import com.example.propertymanagement.viewModel.LoginActivityViewModel
+import com.example.propertymanagement.ui.dashboard.DashboardActivity
+import com.example.propertymanagement.ui.register.RegisterActivity
+import com.example.propertymanagement.ui.resetPassword.ResetPasswordActivity
 
 class LoginActivity : AppCompatActivity() {
     lateinit var binding: ActivityLoginBinding
     lateinit var viewModel: LoginActivityViewModel
-    lateinit var pd: ProgressDialog
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityLoginBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_login)
+
+        viewModel = ViewModelProvider(this).get(LoginActivityViewModel::class.java)
+        binding.userCredential = viewModel
 
         setupEvents()
-        initViewModels()
         setupObservers()
         modifyTextView()
     }
@@ -37,32 +39,16 @@ class LoginActivity : AppCompatActivity() {
 
     private fun setupObservers() {
         viewModel.error.observe(this) {
-            pd.dismiss()
             Toast.makeText(baseContext, it, Toast.LENGTH_LONG).show()
         }
 
         viewModel.loginResponse.observe(this) { response ->
-            pd.dismiss()
             // todo - store the user info in the local database
             startActivity(Intent(baseContext, DashboardActivity::class.java))
         }
     }
 
-    private fun initViewModels() {
-        viewModel = ViewModelProvider(this).get(LoginActivityViewModel::class.java)
-    }
-
     private fun setupEvents() {
-        binding.btnLogIn.setOnClickListener {
-            val email = binding.etEmailAddress.text.toString()
-            val password = binding.etPassword.text.toString()
-
-            if (validateInput(email, password)) {
-                showProgressBar()
-                viewModel.login(email, password)
-            }
-        }
-
         binding.btnFacebookLogin.setOnClickListener {
             AlertDialog.Builder(this).apply{
                 setMessage("API not supported, please try later")
@@ -84,18 +70,6 @@ class LoginActivity : AppCompatActivity() {
                 show()
             }
         }
-    }
-
-    private fun validateInput(email: String, password: String): Boolean {
-        if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
-            binding.etEmailAddress.error = "Invalid email address"
-            return false
-        }
-        if (password.length < 6) {
-            binding.etPassword.error = "Invalid password"
-            return false
-        }
-        return true
     }
 
     private fun modifyTextView() {
@@ -147,13 +121,5 @@ class LoginActivity : AppCompatActivity() {
         binding.tvRegister.movementMethod = LinkMovementMethod.getInstance()
         binding.tvRegister.highlightColor = Color.TRANSPARENT
 
-    }
-
-    private fun showProgressBar() {
-        pd = ProgressDialog(this).apply{
-            setMessage("Logging in...")
-            setCancelable(false)
-            show()
-        }
     }
 }

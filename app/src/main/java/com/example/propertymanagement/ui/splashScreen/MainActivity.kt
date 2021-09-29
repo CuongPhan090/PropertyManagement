@@ -1,4 +1,4 @@
-package com.example.propertymanagement.view
+package com.example.propertymanagement.ui.splashScreen
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,6 +6,8 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Message
 import com.example.propertymanagement.databinding.ActivityMainBinding
+import com.example.propertymanagement.ui.dashboard.DashboardActivity
+import com.example.propertymanagement.ui.login.LoginActivity
 
 
 class MainActivity : AppCompatActivity() {

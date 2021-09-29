@@ -1,4 +1,4 @@
-package com.example.propertymanagement.view
+package com.example.propertymanagement.ui.register
 
 import android.app.ProgressDialog
 import android.content.Intent
@@ -16,10 +16,9 @@ import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.lifecycle.ViewModelProvider
-import com.example.propertymanagement.R
 import com.example.propertymanagement.databinding.ActivityRegisterBinding
 import com.example.propertymanagement.model.mainRepository.RegisterRequestData
-import com.example.propertymanagement.viewModel.RegisterActivityViewModel
+import com.example.propertymanagement.ui.login.LoginActivity
 
 class RegisterActivity : AppCompatActivity() {
     lateinit var binding: ActivityRegisterBinding

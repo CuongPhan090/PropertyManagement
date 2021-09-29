@@ -34,4 +34,10 @@
     <string name="account_and_billing"><![CDATA[ACCOUNT & BILLING]]></string>
     <string name="my_current_plan">My Current Plan</string>
     <string name="payment_details">Payment Details</string>
+    <string name="properties">Properties</string>
+    <string name="tenant_management">Tenant Management</string>
+    <string name="gross_income">Gross Income</string>
+    <string name="gross_expense">Gross Expense</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
 </resources>

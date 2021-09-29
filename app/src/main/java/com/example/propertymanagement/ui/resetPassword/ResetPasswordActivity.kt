@@ -1,4 +1,4 @@
-package com.example.propertymanagement.view
+package com.example.propertymanagement.ui.resetPassword
 
 import android.content.Intent
 import android.graphics.Color
@@ -13,6 +13,7 @@ import android.view.MenuItem
 import android.view.View
 import androidx.appcompat.app.AlertDialog
 import com.example.propertymanagement.databinding.ActivityResetPasswordBinding
+import com.example.propertymanagement.ui.register.RegisterActivity
 
 class ResetPasswordActivity : AppCompatActivity() {
     lateinit var binding: ActivityResetPasswordBinding

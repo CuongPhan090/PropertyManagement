@@ -47,11 +47,6 @@ class MenuTestActivity : AppCompatActivity() {
                     Toast.makeText(baseContext, "Security Selected", Toast.LENGTH_LONG).show()
 
                 }
-
-
-
-
-
             }
             binding.settingsDrawerLayout.closeDrawer(GravityCompat.START)
             true

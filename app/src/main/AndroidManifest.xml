@@ -10,20 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PropertyManagement">
         <activity
-            android:name=".view.RegisterActivity"
+            android:name=".ui.register.RegisterActivity"
             android:label="@string/create_an_account" />
         <activity
-            android:name=".view.ResetPasswordActivity"
+            android:name=".ui.resetPassword.ResetPasswordActivity"
             android:label="@string/reset_password" />
         <activity
-            android:name=".view.LoginActivity"
+            android:name=".ui.login.LoginActivity"
             android:label="@string/login_activity" />
 
         <activity
-            android:name=".view.DashboardActivity"
+            android:name=".ui.dashboard.DashboardActivity"
             android:label="@string/dashboard" />
         <activity
-            android:name=".view.MainActivity"
+            android:name=".ui.splashScreen.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,4 +1,4 @@
-package com.example.propertymanagement.viewModel
+package com.example.propertymanagement.ui.register
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
