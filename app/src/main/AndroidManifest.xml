@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PropertyManagement">
         <activity
+            android:name=".view.PropertyByUserActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.AddPropertyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.PropertyActivity"
+            android:exported="true" />
+        <activity
             android:name=".view.DashboardActivity"
             android:exported="true" />
         <activity

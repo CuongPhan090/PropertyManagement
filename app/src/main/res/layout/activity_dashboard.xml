@@ -15,13 +15,25 @@
 
         <androidx.appcompat.widget.AppCompatImageButton
             android:id="@+id/ic_info"
-            android:src="@drawable/ic_bell"
+            android:src="@drawable/ic_info"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
+
+
+
+        <ImageView
+            android:id="@+id/ivlogo"
+            android:src="@drawable/logo"
+            android:layout_width="75dp"
+            android:layout_height="65dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/ic_info"
+            app:layout_constraintEnd_toStartOf="@id/ic_bell" />
 
         <androidx.appcompat.widget.AppCompatImageButton
             android:id="@+id/ic_bell"
@@ -44,7 +56,7 @@
 
         <ImageView
             android:id="@+id/ivproperty"
-            android:src="@drawable/ic_properties"
+            android:src="@drawable/ic_apartment"
             android:layout_width="66dp"
             android:layout_height="0dp"
             app:layout_constraintStart_toEndOf="parent"
@@ -137,7 +149,7 @@
 
         <ImageView
             android:id="@+id/ivincome"
-            android:src="@drawable/ic_money"
+            android:src="@drawable/money_bag"
             android:layout_width="66dp"
             android:layout_height="0dp"
             app:layout_constraintStart_toEndOf="parent"
@@ -196,7 +208,7 @@
             android:layout_width="220dp"
             android:layout_height="55dp"
             android:textColor="@color/text_color"
-            android:text="Gross Income"
+            android:text="Gross Expense"
             android:textStyle="bold"
             android:gravity="center"
             android:layout_marginLeft="@dimen/medium_margin"
@@ -217,8 +229,5 @@
             app:layout_constraintStart_toEndOf="@id/tvexpense"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-
 
 </LinearLayout>

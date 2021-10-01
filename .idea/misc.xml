@@ -3,11 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Apolis_Android/Android_Class/PropertyManagement/app/src/main/res/drawable-v24/add_photo_button.xml" value="0.1" />
+        <entry key="..\:/Apolis_Android/Android_Class/PropertyManagement/app/src/main/res/drawable-v24/custom_button.xml" value="0.1259259259259259" />
+        <entry key="..\:/Apolis_Android/Android_Class/PropertyManagement/app/src/main/res/drawable-v24/save_property_button.xml" value="0.1" />
         <entry key="..\:/Apolis_Android/Android_Class/PropertyManagement/app/src/main/res/drawable/ic_add.xml" value="0.19166666666666668" />
+        <entry key="..\:/Apolis_Android/Android_Class/PropertyManagement/app/src/main/res/drawable/ic_apartment.xml" value="0.1875" />
         <entry key="..\:/Apolis_Android/Android_Class/PropertyManagement/app/src/main/res/drawable/ic_bell.xml" value="0.22962962962962963" />
-        <entry key="..\:/Apolis_Android/Android_Class/PropertyManagement/app/src/main/res/layout/activity_dashboard.xml" value="0.2427536231884058" />
+        <entry key="..\:/Apolis_Android/Android_Class/PropertyManagement/app/src/main/res/drawable/ic_camera.xml" value="0.1" />
+        <entry key="..\:/Apolis_Android/Android_Class/PropertyManagement/app/src/main/res/drawable/ic_info.xml" value="0.1875" />
+        <entry key="..\:/Apolis_Android/Android_Class/PropertyManagement/app/src/main/res/drawable/ic_properties.xml" value="0.1875" />
+        <entry key="..\:/Apolis_Android/Android_Class/PropertyManagement/app/src/main/res/drawable/ic_save.xml" value="0.1" />
+        <entry key="..\:/Apolis_Android/Android_Class/PropertyManagement/app/src/main/res/layout/activity_add_property.xml" value="0.1" />
+        <entry key="..\:/Apolis_Android/Android_Class/PropertyManagement/app/src/main/res/layout/activity_dashboard.xml" value="0.2" />
         <entry key="..\:/Apolis_Android/Android_Class/PropertyManagement/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Apolis_Android/Android_Class/PropertyManagement/app/src/main/res/layout/activity_product_by_user.xml" value="0.15579710144927536" />
+        <entry key="..\:/Apolis_Android/Android_Class/PropertyManagement/app/src/main/res/layout/activity_property.xml" value="0.1" />
         <entry key="..\:/Apolis_Android/Android_Class/PropertyManagement/app/src/main/res/layout/dashboard_toolbar.xml" value="0.13518518518518519" />
+        <entry key="..\:/Apolis_Android/Android_Class/PropertyManagement/app/src/main/res/layout/holder_property.xml" value="0.1" />
         <entry key="..\:/Apolis_Android/Android_Class/PropertyManagement/app/src/main/res/menu/dashboard_menu.xml" value="0.13518518518518519" />
       </map>
     </option>
